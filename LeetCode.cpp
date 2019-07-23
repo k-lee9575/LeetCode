@@ -2,11 +2,17 @@
 //
 
 #include "pch.h"
-#include <iostream>
+#include "6_Z字形变换.cpp"
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	//6_Z字形变换
+	//Solution ans;
+	//string q = "A";
+	//int numRows = 2;
+	//cout << ans.convert(q, numRows) << endl;
+
+
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

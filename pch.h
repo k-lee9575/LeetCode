@@ -10,5 +10,10 @@
 #define PCH_H
 
 // TODO: 添加要在此处预编译的标头
+#include <string>
+#include <iostream>
+using namespace std;
+
+
 
 #endif //PCH_H
