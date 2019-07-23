@@ -2,7 +2,8 @@
 //
 
 #include "pch.h"
-#include "6_Z字形变换.cpp"
+//#include "6_Z字形变换.cpp"
+#include "7_整数反转.cpp"
 
 int main()
 {
@@ -11,7 +12,10 @@ int main()
 	//string q = "A";
 	//int numRows = 2;
 	//cout << ans.convert(q, numRows) << endl;
-
+	
+	//7_整数反转
+	Solution ans;
+	cout << ans.reverse(-123) << endl;
 
 }
 
