@@ -32,5 +32,8 @@
     <ClCompile Include="7_整数反转.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="8_字符串转换整数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

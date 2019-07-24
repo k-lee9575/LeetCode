@@ -3,7 +3,8 @@
 
 #include "pch.h"
 //#include "6_Z字形变换.cpp"
-#include "7_整数反转.cpp"
+//#include "7_整数反转.cpp"
+#include "8_字符串转换整数.cpp"
 
 int main()
 {
@@ -14,8 +15,13 @@ int main()
 	//cout << ans.convert(q, numRows) << endl;
 	
 	//7_整数反转
+	//Solution ans;
+	//cout << ans.reverse(-123) << endl;
+
+	//8_字符串转换整数
 	Solution ans;
-	cout << ans.reverse(-123) << endl;
+	string s = "42";
+	cout << ans.myAtoi(s) << endl;
 
 }
 
