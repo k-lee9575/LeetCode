@@ -4,7 +4,9 @@
 #include "pch.h"
 //#include "6_Z字形变换.cpp"
 //#include "7_整数反转.cpp"
-#include "8_字符串转换整数.cpp"
+//#include "8_字符串转换整数.cpp"
+#include "9_回文数.cpp"
+
 
 int main()
 {
@@ -19,10 +21,13 @@ int main()
 	//cout << ans.reverse(-123) << endl;
 
 	//8_字符串转换整数
-	Solution ans;
-	string s = "42";
-	cout << ans.myAtoi(s) << endl;
+	//Solution ans;
+	//string s = "42";
+	//cout << ans.myAtoi(s) << endl;
 
+	//9_回文数
+	Solution ans;
+	cout << ans.isPalindrome(215) << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
