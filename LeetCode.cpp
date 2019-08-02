@@ -2,10 +2,14 @@
 //
 
 #include "pch.h"
+
+//include CPP 文件是不规范的做法
+
 //#include "6_Z字形变换.cpp"
 //#include "7_整数反转.cpp"
 //#include "8_字符串转换整数.cpp"
-#include "9_回文数.cpp"
+//#include "9_回文数.cpp"
+#include "10_正则表达式匹配.cpp"
 
 
 int main()
@@ -26,8 +30,15 @@ int main()
 	//cout << ans.myAtoi(s) << endl;
 
 	//9_回文数
+	//Solution ans;
+	//cout << ans.isPalindrome(215) << endl;
+
+	//10_正则表达式匹配
 	Solution ans;
-	cout << ans.isPalindrome(215) << endl;
+	//cout << ans.isMatch("aab","c*a*ab") << endl;
+	//cout << ans.isMatch("aab", ".*ab") << endl;
+	cout << ans.isMatch("bcaab", "ac.*ab") << endl;
+	cout << ans.isMatch("bcaab", "bc.*ab") << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

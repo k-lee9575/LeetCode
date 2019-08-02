@@ -38,5 +38,8 @@
     <ClCompile Include="9_回文数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="10_正则表达式匹配.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
