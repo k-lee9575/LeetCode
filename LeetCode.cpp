@@ -9,7 +9,8 @@
 //#include "7_整数反转.cpp"
 //#include "8_字符串转换整数.cpp"
 //#include "9_回文数.cpp"
-#include "10_正则表达式匹配.cpp"
+//#include "10_正则表达式匹配.cpp"
+#include "11_盛最多水的容器.cpp"
 
 
 int main()
@@ -34,11 +35,18 @@ int main()
 	//cout << ans.isPalindrome(215) << endl;
 
 	//10_正则表达式匹配
-	Solution ans;
+	//Solution ans;
 	//cout << ans.isMatch("aab","c*a*ab") << endl;
 	//cout << ans.isMatch("aab", ".*ab") << endl;
-	cout << ans.isMatch("bcaab", "ac.*ab") << endl;
-	cout << ans.isMatch("bcaab", "bc.*ab") << endl;
+	//cout << ans.isMatch("bcaab", "ac.*ab") << endl;
+	//cout << ans.isMatch("bcaab", "bc.*ab") << endl;
+
+	//11_盛最多水的容器
+	Solution ans;
+	vector<int> height;
+	height.push_back(2);
+	height.push_back(1);
+	cout << ans.maxArea(height) << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
