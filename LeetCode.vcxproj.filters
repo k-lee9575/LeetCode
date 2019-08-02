@@ -44,5 +44,8 @@
     <ClCompile Include="11_盛最多水的容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="12_整数转罗马数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
