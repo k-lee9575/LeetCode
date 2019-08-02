@@ -157,6 +157,7 @@
     <ClCompile Include="10_正则表达式匹配.cpp" />
     <ClCompile Include="11_盛最多水的容器.cpp" />
     <ClCompile Include="12_整数转罗马数字.cpp" />
+    <ClCompile Include="13_罗马数字转整数.cpp" />
     <ClCompile Include="6_Z字形变换.cpp" />
     <ClCompile Include="7_整数反转.cpp" />
     <ClCompile Include="8_字符串转换整数.cpp" />
