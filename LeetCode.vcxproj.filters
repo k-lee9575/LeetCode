@@ -50,5 +50,8 @@
     <ClCompile Include="13_罗马数字转整数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="14_最长公共前缀.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

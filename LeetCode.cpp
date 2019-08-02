@@ -12,51 +12,51 @@
 //#include "10_正则表达式匹配.cpp"
 //#include "11_盛最多水的容器.cpp"
 //#include "12_整数转罗马数字.cpp"
-#include "13_罗马数字转整数.cpp"
+//#include "13_罗马数字转整数.cpp"
+#include "14_最长公共前缀.cpp"
+
 
 int main()
 {
+	Solution ans;
 	//6_Z字形变换
-	//Solution ans;
 	//string q = "A";
 	//int numRows = 2;
 	//cout << ans.convert(q, numRows) << endl;
 	
 	//7_整数反转
-	//Solution ans;
 	//cout << ans.reverse(-123) << endl;
 
 	//8_字符串转换整数
-	//Solution ans;
 	//string s = "42";
 	//cout << ans.myAtoi(s) << endl;
 
 	//9_回文数
-	//Solution ans;
 	//cout << ans.isPalindrome(215) << endl;
 
 	//10_正则表达式匹配
-	//Solution ans;
 	//cout << ans.isMatch("aab","c*a*ab") << endl;
 	//cout << ans.isMatch("aab", ".*ab") << endl;
 	//cout << ans.isMatch("bcaab", "ac.*ab") << endl;
 	//cout << ans.isMatch("bcaab", "bc.*ab") << endl;
 
 	//11_盛最多水的容器
-	//Solution ans;
 	//vector<int> height;
 	//height.push_back(2);
 	//height.push_back(1);
 	//cout << ans.maxArea(height) << endl;
 
 	//12_整数转罗马数字
-	//Solution ans;
 	//cout << ans.intToRoman(1024) << endl;
 	//cout << ans.intToRoman(1994) << endl;
 
 	//13_罗马数字转整数
-	Solution ans;
-	cout << ans.romanToInt("MCMXCIV")<<endl;
+	//cout << ans.romanToInt("MCMXCIV")<<endl;
+
+	//14_最长公共前缀
+	vector<string> vStr;
+	cout << ans.longestCommonPrefix(vStr) << endl;
+
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
