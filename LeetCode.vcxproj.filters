@@ -53,5 +53,8 @@
     <ClCompile Include="14_最长公共前缀.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="15_三数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -13,7 +13,8 @@
 //#include "11_盛最多水的容器.cpp"
 //#include "12_整数转罗马数字.cpp"
 //#include "13_罗马数字转整数.cpp"
-#include "14_最长公共前缀.cpp"
+//#include "14_最长公共前缀.cpp"
+#include "15_三数之和.cpp"
 
 
 int main()
@@ -54,8 +55,27 @@ int main()
 	//cout << ans.romanToInt("MCMXCIV")<<endl;
 
 	//14_最长公共前缀
-	vector<string> vStr;
-	cout << ans.longestCommonPrefix(vStr) << endl;
+	//vector<string> vStr;
+	//cout << ans.longestCommonPrefix(vStr) << endl;
+
+	//15_三数之和
+	vector<int> nums;
+
+
+		nums.push_back(1);
+		nums.push_back(2);
+		nums.push_back(-2);
+		nums.push_back(-1);
+	
+	
+	
+
+	vector<vector<int> > a = ans.threeSum(nums);
+	cout << '[' << endl;
+	for (int i = 0; i < a.size(); i++) {
+		cout << "\t[" << a[i][0] << ',' << a[i][1] << ',' << a[i][2] << endl;
+	}
+	cout << ']' << endl;
 
 }
 
