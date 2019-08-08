@@ -15,8 +15,33 @@
 //#include "13_罗马数字转整数.cpp"
 //#include "14_最长公共前缀.cpp"
 //#include "15_三数之和.cpp"
-#include "16_最接近的三数之和.cpp"
+//#include "16_最接近的三数之和.cpp"
+#include "17_电话号码的字母组合.cpp"
+//template<typename T>
+//ostream &operator << (ostream &out, vector<T> &v) {
+//	out << '[' << endl;
+//	for (int i = 0; i < v.size(); i++) {
+//		if (i != 0) {
+//			out << ',';
+//		}
+//		out << v[i];
+//	}
+//	out << endl <<']' << endl;
+//	return out;
+//}
 
+template<typename T>
+ostream &operator << (ostream &out, vector<T, allocator<T>> &v) {
+	out << '[';
+	for (int i = 0; i < v.size(); i++) {
+		if (i != 0) {
+			out << ',';
+		}
+		out << v[i];
+	}
+	out << ']';
+	return out;
+}
 
 int main()
 {
@@ -60,7 +85,7 @@ int main()
 	//cout << ans.longestCommonPrefix(vStr) << endl;
 
 	//15_三数之和
-	vector<int> nums;
+	//vector<int> nums;
 	//nums.push_back(-1);
 	//nums.push_back(2);
 	//nums.push_back(1);
@@ -75,10 +100,12 @@ int main()
 	
 	
 	//16_最接近的三数之和
-	nums = { 1, 2, 4, 8, 16, 32, 64, 128 };
-	cout << ans.threeSumClosest(nums, 82) << endl;
+	//nums = { 1, 2, 4, 8, 16, 32, 64, 128 };
+	//cout << ans.threeSumClosest(nums, 82) << endl;
 
-
+	//17_电话号码的字母组合
+	vector<string> s = ans.letterCombinations("23");
+	cout << s << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
