@@ -14,7 +14,8 @@
 //#include "12_整数转罗马数字.cpp"
 //#include "13_罗马数字转整数.cpp"
 //#include "14_最长公共前缀.cpp"
-#include "15_三数之和.cpp"
+//#include "15_三数之和.cpp"
+#include "16_最接近的三数之和.cpp"
 
 
 int main()
@@ -24,7 +25,7 @@ int main()
 	//string q = "A";
 	//int numRows = 2;
 	//cout << ans.convert(q, numRows) << endl;
-	
+
 	//7_整数反转
 	//cout << ans.reverse(-123) << endl;
 
@@ -60,22 +61,23 @@ int main()
 
 	//15_三数之和
 	vector<int> nums;
+	//nums.push_back(-1);
+	//nums.push_back(2);
+	//nums.push_back(1);
+	//nums.push_back(-4);
 
-
-		nums.push_back(1);
-		nums.push_back(2);
-		nums.push_back(-2);
-		nums.push_back(-1);
+	//vector<vector<int> > a = ans.threeSum(nums);
+	//cout << '[' << endl;
+	//for (int i = 0; i < a.size(); i++) {
+	//	cout << "\t[" << a[i][0] << ',' << a[i][1] << ',' << a[i][2] << endl;
+	//}
+	//cout << ']' << endl;
 	
 	
-	
+	//16_最接近的三数之和
+	nums = { 1, 2, 4, 8, 16, 32, 64, 128 };
+	cout << ans.threeSumClosest(nums, 82) << endl;
 
-	vector<vector<int> > a = ans.threeSum(nums);
-	cout << '[' << endl;
-	for (int i = 0; i < a.size(); i++) {
-		cout << "\t[" << a[i][0] << ',' << a[i][1] << ',' << a[i][2] << endl;
-	}
-	cout << ']' << endl;
 
 }
 
