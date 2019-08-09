@@ -7,9 +7,9 @@ public:
 		int nIntermal = (1 << 31) - 1;
 
 		for (int i = 0; i < nums.size() - 2;) {
-			if (nums[i] - target > nIntermal) {
-				break;
-			}
+			//if (nums[i] - target > nIntermal) {
+			//	break;
+			//}
 			if (i > 0 && nums[i] == nums[i - 1]) {
 				continue;
 			}
