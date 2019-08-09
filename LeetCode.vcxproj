@@ -163,6 +163,7 @@
     <ClCompile Include="16_最接近的三数之和.cpp" />
     <ClCompile Include="17_电话号码的字母组合.cpp" />
     <ClCompile Include="18_四数之和.cpp" />
+    <ClCompile Include="19_删除链表的倒数第N个节点.cpp" />
     <ClCompile Include="6_Z字形变换.cpp" />
     <ClCompile Include="7_整数反转.cpp" />
     <ClCompile Include="8_字符串转换整数.cpp" />

@@ -18,6 +18,27 @@
 #include <algorithm>
 using namespace std;
 
+template<typename T>
+ostream &operator << (ostream &out, vector<T> &v) {
+	out << '[';
+	for (int i = 0; i < v.size(); i++) {
+		if (i != 0) {
+			out << ',';
+		}
+		out << v[i];
+	}
+	out << ']';
+	return out;
+}
 
+
+struct ListNode {
+	int val;
+	ListNode *next;
+	ListNode(int x) : val(x), next(NULL) {}
+};
+
+ostream &operator <<(ostream &out, ListNode &list);
+	
 
 #endif //PCH_H

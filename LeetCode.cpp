@@ -17,20 +17,8 @@
 //#include "15_三数之和.cpp"
 //#include "16_最接近的三数之和.cpp"
 //#include "17_电话号码的字母组合.cpp"
-#include "18_四数之和.cpp"
-
-template<typename T>
-ostream &operator << (ostream &out, vector<T> &v) {
-	out << '[';
-	for (int i = 0; i < v.size(); i++) {
-		if (i != 0) {
-			out << ',';
-		}
-		out << v[i];
-	}
-	out << ']';
-	return out;
-}
+//#include "18_四数之和.cpp"
+#include "19_删除链表的倒数第N个节点.cpp"
 
 int main()
 {
@@ -97,9 +85,26 @@ int main()
 	//cout << s << endl;
 
 	//18_四数之和
-	vector<int> num = { 1, -2, -5, -4, -3, 3, 3, 5 };
-	vector<vector<int>> s = ans.fourSum(num, -11);
-	cout << s << endl;
+	//vector<int> num = { 1, -2, -5, -4, -3, 3, 3, 5 };
+	//vector<vector<int>> s = ans.fourSum(num, -11);
+	//cout << s << endl;
+
+	//19_删除链表的倒数第N个节点
+	ListNode * pHead = new ListNode(1);
+	ListNode * p = pHead;
+	for (int i = 2; i <= 5; i++) {
+		ListNode * pt = new ListNode(i);
+		p->next = pt;
+		p = pt;
+	}
+	ListNode *pAns = ans.removeNthFromEnd(pHead, 2);
+	cout << *pAns << endl;
+	while (pHead) {
+		ListNode * p = pHead;
+		pHead = pHead->next;
+		delete p;
+	}
+	
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
