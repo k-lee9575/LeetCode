@@ -35,9 +35,6 @@
     <ClCompile Include="8_字符串转换整数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="9_回文数.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="10_正则表达式匹配.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -61,6 +58,12 @@
     </ClCompile>
     <ClCompile Include="17_电话号码的字母组合.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18_四数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9_回文数.cpp">
+      <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
