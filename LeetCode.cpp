@@ -18,7 +18,8 @@
 //#include "16_最接近的三数之和.cpp"
 //#include "17_电话号码的字母组合.cpp"
 //#include "18_四数之和.cpp"
-#include "19_删除链表的倒数第N个节点.cpp"
+//#include "19_删除链表的倒数第N个节点.cpp"
+#include "20_有效的括号.cpp"
 
 int main()
 {
@@ -90,21 +91,24 @@ int main()
 	//cout << s << endl;
 
 	//19_删除链表的倒数第N个节点
-	ListNode * pHead = new ListNode(1);
-	ListNode * p = pHead;
-	for (int i = 2; i <= 5; i++) {
-		ListNode * pt = new ListNode(i);
-		p->next = pt;
-		p = pt;
-	}
-	ListNode *pAns = ans.removeNthFromEnd(pHead, 2);
-	cout << *pAns << endl;
-	while (pHead) {
-		ListNode * p = pHead;
-		pHead = pHead->next;
-		delete p;
-	}
+	//ListNode * pHead = new ListNode(1);
+	//ListNode * p = pHead;
+	//for (int i = 2; i <= 5; i++) {
+	//	ListNode * pt = new ListNode(i);
+	//	p->next = pt;
+	//	p = pt;
+	//}
+	//ListNode *pAns = ans.removeNthFromEnd(pHead, 2);
+	//cout << *pAns << endl;
+	//while (pHead) {
+	//	ListNode * p = pHead;
+	//	pHead = pHead->next;
+	//	delete p;
+	//}
 	
+	//20_有效的括号
+	cout << ans.isValid("([)]") << endl;
+
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

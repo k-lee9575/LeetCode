@@ -16,6 +16,8 @@
 #include <map>
 #include <set>
 #include <algorithm>
+#include <stack>
+
 using namespace std;
 
 template<typename T>
