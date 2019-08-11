@@ -19,7 +19,8 @@
 //#include "17_电话号码的字母组合.cpp"
 //#include "18_四数之和.cpp"
 //#include "19_删除链表的倒数第N个节点.cpp"
-#include "20_有效的括号.cpp"
+//#include "20_有效的括号.cpp"
+#include "21_合并两个有序链表.cpp"
 
 int main()
 {
@@ -107,7 +108,28 @@ int main()
 	//}
 	
 	//20_有效的括号
-	cout << ans.isValid("([)]") << endl;
+	//cout << ans.isValid("([)]") << endl;
+
+	//21_合并两个有序链表
+	ListNode *p;
+	ListNode *l1 = new ListNode(1);
+	p = l1;
+	p->next = new ListNode(2);
+	p = p->next;
+	p->next = new ListNode(4);
+
+	ListNode *l2 = new ListNode(1);
+	p = l2;
+	p->next = new ListNode(3);
+	p = p->next;
+	p->next = new ListNode(4);
+	p = ans.mergeTwoLists(l1, l2);
+	cout << *p << endl;
+	while (p) {
+		ListNode * t = p;
+		p = p->next;
+		delete t;
+	}
 
 }
 
