@@ -77,5 +77,8 @@
     <ClCompile Include="22_括号生成.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="23_合并K个排序链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

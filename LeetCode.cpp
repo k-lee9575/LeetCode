@@ -21,7 +21,8 @@
 //#include "19_删除链表的倒数第N个节点.cpp"
 //#include "20_有效的括号.cpp"
 //#include "21_合并两个有序链表.cpp"
-#include "22_括号生成.cpp"
+//#include "22_括号生成.cpp"
+#include "23_合并K个排序链表.cpp"
 
 int main()
 {
@@ -133,8 +134,38 @@ int main()
 	//}
 
 	//22_括号生成
-	vector<string> s = ans.generateParenthesis(5);
-	cout << s << endl;
+	//vector<string> s = ans.generateParenthesis(5);
+	//cout << s << endl;
+
+	//23_合并K个排序链表
+	vector<ListNode *> list;
+	ListNode *p;
+	ListNode *l1 = new ListNode(1);
+	p = l1;
+	p->next = new ListNode(4);
+	p = p->next;
+	p->next = new ListNode(5);
+	list.push_back(l1);
+
+	ListNode *l2 = new ListNode(1);
+	p = l2;
+	p->next = new ListNode(3);
+	p = p->next;
+	p->next = new ListNode(4);
+	list.push_back(l2);
+
+	ListNode *l3 = new ListNode(2);
+	p = l2;
+	p->next = new ListNode(6);
+	list.push_back(l3);
+
+	p = ans.mergeKLists(list);
+	cout << *p << endl;
+	while (p) {
+		ListNode * t = p;
+		p = p->next;
+		delete t;
+	}
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
