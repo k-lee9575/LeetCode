@@ -168,6 +168,7 @@
     <ClCompile Include="21_合并两个有序链表.cpp" />
     <ClCompile Include="22_括号生成.cpp" />
     <ClCompile Include="23_合并K个排序链表.cpp" />
+    <ClCompile Include="24_两两交换链表中的节点.cpp" />
     <ClCompile Include="6_Z字形变换.cpp" />
     <ClCompile Include="7_整数反转.cpp" />
     <ClCompile Include="8_字符串转换整数.cpp" />
