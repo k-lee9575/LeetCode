@@ -20,7 +20,8 @@
 //#include "18_四数之和.cpp"
 //#include "19_删除链表的倒数第N个节点.cpp"
 //#include "20_有效的括号.cpp"
-#include "21_合并两个有序链表.cpp"
+//#include "21_合并两个有序链表.cpp"
+#include "22_括号生成.cpp"
 
 int main()
 {
@@ -76,8 +77,8 @@ int main()
 	//	cout << "\t[" << a[i][0] << ',' << a[i][1] << ',' << a[i][2] << endl;
 	//}
 	//cout << ']' << endl;
-	
-	
+
+
 	//16_最接近的三数之和
 	//nums = { 1, 2, 4, 8, 16, 32, 64, 128 };
 	//cout << ans.threeSumClosest(nums, 82) << endl;
@@ -106,31 +107,34 @@ int main()
 	//	pHead = pHead->next;
 	//	delete p;
 	//}
-	
+
 	//20_有效的括号
 	//cout << ans.isValid("([)]") << endl;
 
 	//21_合并两个有序链表
-	ListNode *p;
-	ListNode *l1 = new ListNode(1);
-	p = l1;
-	p->next = new ListNode(2);
-	p = p->next;
-	p->next = new ListNode(4);
+	//ListNode *p;
+	//ListNode *l1 = new ListNode(1);
+	//p = l1;
+	//p->next = new ListNode(2);
+	//p = p->next;
+	//p->next = new ListNode(4);
 
-	ListNode *l2 = new ListNode(1);
-	p = l2;
-	p->next = new ListNode(3);
-	p = p->next;
-	p->next = new ListNode(4);
-	p = ans.mergeTwoLists(l1, l2);
-	cout << *p << endl;
-	while (p) {
-		ListNode * t = p;
-		p = p->next;
-		delete t;
-	}
+	//ListNode *l2 = new ListNode(1);
+	//p = l2;
+	//p->next = new ListNode(3);
+	//p = p->next;
+	//p->next = new ListNode(4);
+	//p = ans.mergeTwoLists(l1, l2);
+	//cout << *p << endl;
+	//while (p) {
+	//	ListNode * t = p;
+	//	p = p->next;
+	//	delete t;
+	//}
 
+	//22_括号生成
+	vector<string> s = ans.generateParenthesis(5);
+	cout << s << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

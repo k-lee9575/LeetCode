@@ -74,5 +74,8 @@
     <ClCompile Include="21_合并两个有序链表.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="22_括号生成.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
