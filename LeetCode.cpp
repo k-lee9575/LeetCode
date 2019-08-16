@@ -23,7 +23,8 @@
 //#include "21_合并两个有序链表.cpp"
 //#include "22_括号生成.cpp"
 //#include "23_合并K个排序链表.cpp"
-#include "24_两两交换链表中的节点.cpp"
+//#include "24_两两交换链表中的节点.cpp"
+#include "25_K个一组翻转链表.cpp"
 
 int main()
 {
@@ -170,6 +171,18 @@ int main()
 	//}
 
 	//24_两两交换链表中的节点
+	//ListNode *p;
+	//ListNode *l = new ListNode(1);
+	//p = l;
+	//p->next = new ListNode(2);
+	//p = p->next;
+	//p->next = new ListNode(3);
+	//p = p->next;
+	//p->next = new ListNode(4);
+	//p = ans.swapPairs(l);
+	//cout << *p << endl;
+
+	//25_K个一组翻转链表
 	ListNode *p;
 	ListNode *l = new ListNode(1);
 	p = l;
@@ -178,7 +191,10 @@ int main()
 	p->next = new ListNode(3);
 	p = p->next;
 	p->next = new ListNode(4);
-	p = ans.swapPairs(l);
+	p = p->next;
+	p->next = new ListNode(5);
+
+	p = ans.reverseKGroup(l, 3);
 	cout << *p << endl;
 }
 
