@@ -26,7 +26,8 @@
 //#include "24_两两交换链表中的节点.cpp"
 //#include "25_K个一组翻转链表.cpp"
 //#include "26_删除排序数组中的重复项.cpp"
-#include "27_移除元素.cpp"
+//#include "27_移除元素.cpp"
+#include "28_实现strStr().cpp"
 
 int main()
 {
@@ -205,9 +206,15 @@ int main()
 	//cout << num << endl;
 
 	//27_移除元素
-	vector<int> num = { 0, 1, 2, 2, 3, 0, 4, 2 };
-	cout << ans.removeElement(num, 2) << endl;
-	cout << num << endl;
+	//vector<int> num = { 0, 1, 2, 2, 3, 0, 4, 2 };
+	//cout << ans.removeElement(num, 2) << endl;
+	//cout << num << endl;
+
+	//28_实现strStr()
+	string haystack = "abaabaabbabaaabaabbabaab";
+	//string needle = "ababacb";
+	string needle = "abaabbabaab";
+	cout << ans.strStr(haystack, needle) << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

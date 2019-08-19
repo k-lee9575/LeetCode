@@ -92,5 +92,8 @@
     <ClCompile Include="27_移除元素.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="28_实现strStr().cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
