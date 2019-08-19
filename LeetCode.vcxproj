@@ -170,6 +170,7 @@
     <ClCompile Include="23_合并K个排序链表.cpp" />
     <ClCompile Include="24_两两交换链表中的节点.cpp" />
     <ClCompile Include="26_删除排序数组中的重复项.cpp" />
+    <ClCompile Include="27_移除元素.cpp" />
     <ClCompile Include="6_Z字形变换.cpp" />
     <ClCompile Include="7_整数反转.cpp" />
     <ClCompile Include="8_字符串转换整数.cpp" />

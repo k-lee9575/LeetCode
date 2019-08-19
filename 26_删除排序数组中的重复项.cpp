@@ -10,6 +10,7 @@ public:
 				nums[i++] = nums[j];
 			}
 		}
+		//nums.resize(i);
 		return i;
 	}
 };

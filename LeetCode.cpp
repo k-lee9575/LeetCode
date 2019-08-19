@@ -25,7 +25,8 @@
 //#include "23_合并K个排序链表.cpp"
 //#include "24_两两交换链表中的节点.cpp"
 //#include "25_K个一组翻转链表.cpp"
-#include "26_删除排序数组中的重复项.cpp"
+//#include "26_删除排序数组中的重复项.cpp"
+#include "27_移除元素.cpp"
 
 int main()
 {
@@ -199,8 +200,13 @@ int main()
 	//cout << *p << endl;
 
 	//26_删除排序数组中的重复项
-	vector<int> num = { 0,0,1,1,1,2,2,3,3,4 };
-	cout << ans.removeDuplicates(num) << endl;
+	//vector<int> num = { 0,0,1,1,1,2,2,3,3,4 };
+	//cout << ans.removeDuplicates(num) << endl;
+	//cout << num << endl;
+
+	//27_移除元素
+	vector<int> num = { 0, 1, 2, 2, 3, 0, 4, 2 };
+	cout << ans.removeElement(num, 2) << endl;
 	cout << num << endl;
 }
 
