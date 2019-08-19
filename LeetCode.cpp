@@ -24,7 +24,8 @@
 //#include "22_括号生成.cpp"
 //#include "23_合并K个排序链表.cpp"
 //#include "24_两两交换链表中的节点.cpp"
-#include "25_K个一组翻转链表.cpp"
+//#include "25_K个一组翻转链表.cpp"
+#include "26_删除排序数组中的重复项.cpp"
 
 int main()
 {
@@ -183,19 +184,24 @@ int main()
 	//cout << *p << endl;
 
 	//25_K个一组翻转链表
-	ListNode *p;
-	ListNode *l = new ListNode(1);
-	p = l;
-	p->next = new ListNode(2);
-	p = p->next;
-	p->next = new ListNode(3);
-	p = p->next;
-	p->next = new ListNode(4);
-	p = p->next;
-	p->next = new ListNode(5);
+	//ListNode *p;
+	//ListNode *l = new ListNode(1);
+	//p = l;
+	//p->next = new ListNode(2);
+	//p = p->next;
+	//p->next = new ListNode(3);
+	//p = p->next;
+	//p->next = new ListNode(4);
+	//p = p->next;
+	//p->next = new ListNode(5);
 
-	p = ans.reverseKGroup(l, 3);
-	cout << *p << endl;
+	//p = ans.reverseKGroup(l, 3);
+	//cout << *p << endl;
+
+	//26_删除排序数组中的重复项
+	vector<int> num = { 0,0,1,1,1,2,2,3,3,4 };
+	cout << ans.removeDuplicates(num) << endl;
+	cout << num << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
