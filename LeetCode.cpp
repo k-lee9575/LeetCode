@@ -27,7 +27,8 @@
 //#include "25_K个一组翻转链表.cpp"
 //#include "26_删除排序数组中的重复项.cpp"
 //#include "27_移除元素.cpp"
-#include "28_实现strStr().cpp"
+//#include "28_实现strStr().cpp"
+#include "29_两数相除.cpp"
 
 int main()
 {
@@ -211,10 +212,13 @@ int main()
 	//cout << num << endl;
 
 	//28_实现strStr()
-	string haystack = "abaabaabbabaaabaabbabaab";
-	//string needle = "ababacb";
-	string needle = "abaabbabaab";
-	cout << ans.strStr(haystack, needle) << endl;
+	//string haystack = "abaabaabbabaaabaabbabaab";
+	////string needle = "ababacb";
+	//string needle = "abaabbabaab";
+	//cout << ans.strStr(haystack, needle) << endl;
+
+	//29_两数相除
+	cout << ans.divide(5, 10) << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

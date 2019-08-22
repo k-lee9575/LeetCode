@@ -95,5 +95,8 @@
     <ClCompile Include="28_实现strStr().cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="29_两数相除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
