@@ -28,10 +28,10 @@
 //#include "26_删除排序数组中的重复项.cpp"
 //#include "27_移除元素.cpp"
 //#include "28_实现strStr().cpp"
-#include "29_两数相除.cpp"
+//#include "29_两数相除.cpp"
+#include "30_串联所有单词的子串.cpp"
 
-int main()
-{
+int main() {
 	Solution ans;
 	//6_Z字形变换
 	//string q = "A";
@@ -218,7 +218,12 @@ int main()
 	//cout << ans.strStr(haystack, needle) << endl;
 
 	//29_两数相除
-	cout << ans.divide(5, 10) << endl;
+	//cout << ans.divide(5, 10) << endl;
+
+	//30_串联所有单子的字串
+	vector<string> s = { "word", "good", "best", "good" };
+	vector<int> a = ans.findSubstring("wordgoodgoodgoodbestword", s);
+	cout << a << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

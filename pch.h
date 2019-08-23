@@ -14,6 +14,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <unordered_map>
 #include <set>
 #include <algorithm>
 #include <stack>
@@ -42,6 +43,6 @@ struct ListNode {
 };
 
 ostream &operator <<(ostream &out, ListNode &list);
-	
+
 
 #endif //PCH_H
