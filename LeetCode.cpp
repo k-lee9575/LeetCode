@@ -29,7 +29,8 @@
 //#include "27_移除元素.cpp"
 //#include "28_实现strStr().cpp"
 //#include "29_两数相除.cpp"
-#include "30_串联所有单词的子串.cpp"
+//#include "30_串联所有单词的子串.cpp"
+#include "31_下一个排列.cpp"
 
 int main() {
 	Solution ans;
@@ -221,9 +222,14 @@ int main() {
 	//cout << ans.divide(5, 10) << endl;
 
 	//30_串联所有单子的字串
-	vector<string> s = { "word", "good", "best", "good" };
-	vector<int> a = ans.findSubstring("wordgoodgoodgoodbestword", s);
-	cout << a << endl;
+	//vector<string> s = { "word", "good", "best", "good" };
+	//vector<int> a = ans.findSubstring("wordgoodgoodgoodbestword", s);
+	//cout << a << endl;
+
+	//31_下一个排列
+	vector<int> num = { 1,3,6,5,2 };
+	ans.nextPermutation(num);
+	cout << num << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
