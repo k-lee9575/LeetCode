@@ -180,6 +180,7 @@
     <ClCompile Include="34_在排序数组中查找元素的第一个和最后一个位置.cpp" />
     <ClCompile Include="35_搜索插入位置.cpp" />
     <ClCompile Include="36_有效的数独.cpp" />
+    <ClCompile Include="37_解数独.cpp" />
     <ClCompile Include="6_Z字形变换.cpp" />
     <ClCompile Include="7_整数反转.cpp" />
     <ClCompile Include="8_字符串转换整数.cpp" />
