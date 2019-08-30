@@ -32,7 +32,8 @@
 //#include "30_串联所有单词的子串.cpp"
 //#include "31_下一个排列.cpp"
 //#include "32_最长有效括号.cpp"
-#include "33_搜索旋转排序数组.cpp"
+//#include "33_搜索旋转排序数组.cpp"
+#include "34_在排序数组中查找元素的第一个和最后一个位置.cpp"
 
 int main() {
 	Solution ans;
@@ -237,8 +238,13 @@ int main() {
 	//cout << ans.longestValidParentheses(")(((((()())()()))()(()))(") << endl;
 
 	//33_搜索旋转排序数组
-	vector<int> num = { 4,5,6,7,0,1,2 };
-	cout << ans.search(num, 0) << endl;
+	//vector<int> nums = { 4,5,6,7,0,1,2 };
+	//cout << ans.search(nums, 0) << endl;
+
+	//34_在排序数组中查找元素的第一个和最后一个位置
+	vector<int> nums = { 5,7,7,8,8,10 };
+	vector<int> a = move(ans.searchRange(nums, 8));
+	cout << a << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
