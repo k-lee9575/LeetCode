@@ -34,7 +34,8 @@
 //#include "32_最长有效括号.cpp"
 //#include "33_搜索旋转排序数组.cpp"
 //#include "34_在排序数组中查找元素的第一个和最后一个位置.cpp"
-#include "35_搜索插入位置.cpp"
+//#include "35_搜索插入位置.cpp"
+#include "36_有效的数独.cpp"
 
 int main() {
 	Solution ans;
@@ -248,8 +249,12 @@ int main() {
 	//cout << a << endl;
 
 	//35_搜索插入位置
-	vector<int> nums = { 5,7,7,8,8,10 };
-	cout << ans.searchInsert(nums, 8) << endl;
+	//vector<int> nums = { 5,7,7,8,8,10 };
+	//cout << ans.searchInsert(nums, 8) << endl;
+
+	//36_有效的数独
+	vector<vector<char>> board;
+	cout << ans.isValidSudoku(board) << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
