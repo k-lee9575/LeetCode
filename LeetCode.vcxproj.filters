@@ -107,5 +107,8 @@
     <ClCompile Include="32_最长有效括号.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="33_搜索旋转排序数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

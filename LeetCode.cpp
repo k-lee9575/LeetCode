@@ -31,7 +31,8 @@
 //#include "29_两数相除.cpp"
 //#include "30_串联所有单词的子串.cpp"
 //#include "31_下一个排列.cpp"
-#include "32_最长有效括号.cpp"
+//#include "32_最长有效括号.cpp"
+#include "33_搜索旋转排序数组.cpp"
 
 int main() {
 	Solution ans;
@@ -233,7 +234,11 @@ int main() {
 	//cout << num << endl;
 
 	//32_最长有效括号
-	cout << ans.longestValidParentheses(")(((((()())()()))()(()))(") << endl;
+	//cout << ans.longestValidParentheses(")(((((()())()()))()(()))(") << endl;
+
+	//33_搜索旋转排序数组
+	vector<int> num = { 4,5,6,7,0,1,2 };
+	cout << ans.search(num, 0) << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
