@@ -122,5 +122,8 @@
     <ClCompile Include="37_解数独.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="38_报数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
