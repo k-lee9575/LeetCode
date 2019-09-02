@@ -37,7 +37,8 @@
 //#include "35_搜索插入位置.cpp"
 //#include "36_有效的数独.cpp"
 //#include "37_解数独.cpp"
-#include "38_报数.cpp"
+//#include "38_报数.cpp"
+#include "39_组合总和.cpp"
 
 int main() {
 	Solution ans;
@@ -271,7 +272,12 @@ int main() {
 	//cout << board << endl;
 
 	//38_报数
-	cout << ans.countAndSay(4) << endl;
+	//cout << ans.countAndSay(4) << endl;
+
+	//39_组合总和
+	vector<int> nums = { 2, 3, 5 };
+	vector<vector<int>> a = ans.combinationSum(nums, 8);
+	cout << a << endl;
 
 }
 
