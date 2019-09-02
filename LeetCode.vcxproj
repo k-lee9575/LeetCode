@@ -183,6 +183,7 @@
     <ClCompile Include="37_解数独.cpp" />
     <ClCompile Include="38_报数.cpp" />
     <ClCompile Include="39_组合总和.cpp" />
+    <ClCompile Include="40_组合总和II.cpp" />
     <ClCompile Include="6_Z字形变换.cpp" />
     <ClCompile Include="7_整数反转.cpp" />
     <ClCompile Include="8_字符串转换整数.cpp" />
